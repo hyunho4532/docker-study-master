@@ -43,10 +43,45 @@ https://docs.docker.com/desktop/install/windows-install/
 
 ### 설치가 완료되면 Docker Desktop를 실행 후 Tutorial를 진행하면 된다.
    
+   
 <img width="500" alt="docker-tutorial" src="https://user-images.githubusercontent.com/118269278/218971909-babdabfe-94b0-4d45-b567-8979ff63c798.png">
 
-그리고 cmd 창에 아래 설명을 통해 입력하면 Docker 버전을 확인할 수 있다.
+<br>
 
-'''
+cmd 창에 아래 설명을 통해 입력하면 Docker 버전을 확인할 수 있다.
+
+```
 docker -v
-'''
+```
+
+<img src="https://user-images.githubusercontent.com/118269278/218973919-9c9cab75-3eaf-4f03-bbf2-a019da0c0b26.png" width=800 height=300 />
+
+<hr>
+
+<br>
+<div>
+위에서 말했던 것처럼 Image와 Container로 구성되어 있다고 했다.
+
+그래서 Docker의 Image 목록을 찾기 위해서는 Docker hub을 통해서 찾아야 한다.
+</div>
+
+<br><br>
+예를 들어 Docker의 CentOS Image를 다운받고 싶으면 CentOS 검색을 통해서 다운 받으면 된다.
+
+![cent-os](https://user-images.githubusercontent.com/118269278/218975613-fc39bd1b-f601-4414-9b9d-5a177c5138ff.png)
+
+또한 cmd 아래의 명령어를 통해 검색이 가능하다
+
+```
+docker search centos
+```
+
+<br>
+
+원하는 이미지를 찾았다면 Image를 아래의 명령어를 통해 다운받으면 된다.
+
+```
+docker pull centos:7.5
+```
+
+<hr>
