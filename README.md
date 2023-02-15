@@ -28,7 +28,14 @@
   * Container에 필요한 파일과 설정 값 등을 포함
   * Image 안에 여러 개의 Container
   * Docker hub을 통해 필요한 Image를 다운 가능
+
+<br>
   
+### 단어 정리<br>
+#### VMWare: Virtual Machine 이라는 개념 즉, 가상의 기계장치
+#### Xen: 오픈소스 하이퍼바이저 중 하나로, 하드웨어 위에서 실행되는 Type1의 형태 또는 베어 메탈 형태의 가상화 기술<br>
+#### HostOS: 물리 머신위에 직접동작하는 OS<br>
+
   
 <hr>
 
