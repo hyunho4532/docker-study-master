@@ -46,7 +46,11 @@
 
 Docker Desktop for Windows<br>
 https://docs.docker.com/desktop/install/windows-install/
-<br>
+<br><br>
+
+다운로드를 받는 중에 에러가 발생할 수 있다.
+
+<img src="https://user-images.githubusercontent.com/118269278/218981194-1310c6bb-396c-4a43-b9a4-f729b197a042.png" width=700 height=400 />
 
 ### 설치가 완료되면 Docker Desktop를 실행 후 Tutorial를 진행하면 된다.
    
