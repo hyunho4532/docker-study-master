@@ -28,3 +28,25 @@
   * Container에 필요한 파일과 설정 값 등을 포함
   * Image 안에 여러 개의 Container
   * Docker hub을 통해 필요한 Image를 다운 가능
+  
+  
+<hr>
+
+
+* Docker 설치
+   * 가상화가 사용 가능하다면 Docker가 실행이 가능하다
+
+
+Docker Desktop for Windows<br>
+https://docs.docker.com/desktop/install/windows-install/
+<br>
+
+### 설치가 완료되면 Docker Desktop를 실행 후 Tutorial를 진행하면 된다.
+   
+<img width="500" alt="docker-tutorial" src="https://user-images.githubusercontent.com/118269278/218971909-babdabfe-94b0-4d45-b567-8979ff63c798.png">
+
+그리고 cmd 창에 아래 설명을 통해 입력하면 Docker 버전을 확인할 수 있다.
+
+'''
+docker -v
+'''
